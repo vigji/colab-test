@@ -3,7 +3,7 @@ import nb_gen
 import pytest
 
 # Test hello world function
-@pytest.mark.hallo_world
+@pytest.mark.hello_world
 def test_hello_world():
     assert nb_gen.hello_world() == "Hello, world!"
 
